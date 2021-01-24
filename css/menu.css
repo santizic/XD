@@ -1,0 +1,38 @@
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header {
+    padding: 20px;
+}
+
+.menu {
+display: none;
+}
+
+.icon-menu {
+    font-size: 2em;
+    color: #EEAD34;
+    border: 1px solid #EEAD34;
+    display:block;
+    padding: 5px 10px;
+    border-radius:5px;
+    margin-right: 15px;
+    box-shadow: none;
+}
+
+.icon-menu:hover {
+    background-color: #EEAD34;
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 5px 10px;
+    cursor: pointer;
+}
+
+.main-title {
+    color:white;
+    font-size: 2.5em;
+    text-shadow: 2px 2px black;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+.banner {
+    background: url(../img/banner.jpg)
+}
+
+.banner {
+    min-height: 400px;
+    position: absolute;
+    top: 0px;
+    lecft: 0px;
+    width: 100%;
+    z-index: -999;;
+}
+
+.banner:before {
+    content: "";
+    width: 100%;
+    min-height: 400px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__content {
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    width: 90%;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.4em;
+    
+}

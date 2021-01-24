@@ -1,0 +1,46 @@
+.main {
+    margin-top: 300px;
+    padding: 15px;
+}
+
+.welcome {
+    text-align: center;
+} 
+
+.welcome__title {
+    font-size: 1.6em;
+    position: relative;
+}
+
+.welcome__title:before {
+    content: "";
+    height: 3px;
+    position: absolute;
+    background: #EEAD34;
+    width: 35%;
+    left: 33%;
+    top: -20px;
+}
+
+.welcome__txt {
+    font-size: 1.3em
+}
+
+
+
+.welcome__btn {
+    display: block;
+    border: 2px solid #EEAD34;
+    text-decoration: none;
+    margin: auto;
+    width: 100px;
+    padding: 5px;
+    color: #EEAD34;
+}
+
+.welcome__btn:hover {
+    background: #EEAD34;
+    color: white;
+    transition: all 0.5s;
+    
+}
