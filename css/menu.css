@@ -8,8 +8,112 @@
     padding: 20px;
 }
 
+
+
 .menu {
-display: none;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: #35363A;
+    width: 80%;
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.menu__item {
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+.menu__link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 15px;
+    font-size: 1.5em;
+    display: block;
+}
+
+.menu__link:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #EEAD34;
+    border-top: 2px solid #EEAD34;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.menu__link:after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-left: 2px solid #EEAD34;
+    border-bottom: 2px solid #EEAD34;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.menu__link span:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-left: 2px solid #EEAD34;
+    border-top: 2px solid #EEAD34;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.menu__link span:after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #EEAD34;
+    border-bottom: 2px solid #EEAD34;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.menu__item:hover .menu__link:before, .menu__item:hover .menu__link:after, .menu__item:hover .menu__link span:before, .menu__item:hover .menu__link span:after {
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+.menu__item:hover .menu__link {
+    color: #EEAD34;
+}
+
+.nav-social a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-social {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+.nav-social a:hover {
+    color: #EEAD34;
+    transition: all 0.7s;
+
 }
 
 .icon-menu {
@@ -30,6 +134,12 @@ display: none;
     box-shadow: 5px 10px;
     cursor: pointer;
 }
+
+.mostrar{
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .main-title {
     color:white;

@@ -1,10 +1,11 @@
 .main {
     margin-top: 300px;
-    padding: 15px;
+    
 }
 
 .welcome {
     text-align: center;
+    padding: 15px;
 } 
 
 .welcome__title {
@@ -23,7 +24,8 @@
 }
 
 .welcome__txt {
-    font-size: 1.3em
+    font-size: 1.1em;
+    color: #838187
 }
 
 

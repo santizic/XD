@@ -35,3 +35,15 @@
     font-size: 1.4em;
     
 }
+
+.banner__txt {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.map-marker {
+    padding: 10px;
+    color: #EEAD34;
+}

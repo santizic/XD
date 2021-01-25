@@ -1,0 +1,31 @@
+main {
+    margin-top: 450px;
+
+}
+
+.contenedor{
+    position: relative;
+}
+
+.design__item h4 {
+    position: absolute; 
+}
+
+.main__title {
+    margin-top: -100px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #EEAD34;
+    position: relative;
+}
+
+.main__title:before {
+    content: "";
+    height: 3px;
+    position: absolute;
+    background: #EEAD34;
+    width: 35%;
+    left: 33%;
+    top: -20px;
+    
+}

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="paginas/hamburguesas_de_carne/hamburguesas_de_carne.html">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Arzu Burguers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu_de_comidas.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
 </head>
@@ -24,9 +27,9 @@
                  <li class="menu__item"><a href="" class="menu__link"><span>Gallery</span></a></li>
                  <li class="menu__item"><a href="" class="menu__link"><span>Contact</span></a></li>
                  <div class="nav-social">
-                     <a href=""><i class="fab fa-facebook"></i></a>
+                     <a href="" class="nav-social__item"><i class="fab fa-facebook" class="nav-social__item"></i></a>
                      <a href=""><i class="fab fa-twitter"></i></a>
-                     <a href=""><i class="fab fa-reddit-alien"></i></a>
+                     <a href="" class="nav-social__item"><i class="fab fa-reddit-alien"></i></a>
                  </div>
               </ul>
            </nav>
@@ -35,7 +38,9 @@
     <div class="banner">
      <div class="banner__content">
          <h2 class="banner__title">La mejor hamburgueseria de la costa</h2>
-         <p class="banner__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+         <a class="banner__txt" href="https://goo.gl/maps/EHbNMLDbHBUhMfqb9">Canelones / Ciudad de la Costa / Solymar / Calle 70. Manzana 230. Solar 9.</a><span class="map-marker"><i class="fas fa-map-marker-alt"></i></span>
+
+ 
      </div>
     </div>
     <main class="main">
@@ -45,10 +50,12 @@
             <a href="" class="welcome__btn">Leer más</a>
         </section>
         
-        <section>
+        <section class="container__design">
             <div class="design__item">
-                <h3 class="design__title">Hamburguesas de carne</h3>
-                <img src="img/tipos_de_menu/hamburguesa_de_carne.jpg" alt="" class="design__img">
+               <a href="paginas/hamburguesas_de_carne/hamburguesas_de_carne.html">
+                 <h3 class="design__title">Hamburguesas de carne</h3>
+                 <img src="img/tipos_de_menu/hamburguesa_de_carne.jpg" alt="" class="design__img">
+               </a> 
             </div>
             <div class="design__item">
                 <h3 class="design__title">Chivitos</h3>
@@ -64,5 +71,6 @@
             </div>
         </section>
     </main>
+    <script src="js/menu.js"></script>
 </body>
 </html>
